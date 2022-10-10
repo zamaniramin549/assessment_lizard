@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %}<title>Register</title>{% endblock %}
+
+{% block content %}
+<div class="row p-2">
+    <div class="col-md-6">
+        <img class="img-fluid" src="https://media-exp1.licdn.com/dms/image/C4E22AQHncr7cQdlEuQ/feedshare-shrink_800/0/1651139915456?e=2147483647&v=beta&t=B2KUw53laLzibW8FJx-jtNdow5XY99Bt0A8i7ic-UEs" />
+    </div>
+
+    <form class="col-md-6">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingname" placeholder="Ramin">
+            <label for="floatingname">First name</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatinglast" placeholder="Zamani">
+            <label for="floatinglast">Last name</label>
+        </div>
+        <h6>Gender:</h6>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="" id="gender" value="">
+            <label class="form-check-label" for="inlineRadio1">Male</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="" id="gender" value="">
+            <label class="form-check-label" for="inlineRadio2">Femail</label>
+          </div>
+          <div class="form-floating mb-3 mt-3">
+            <input type="date" class="form-control" id="floatingdate">
+            <label for="floatingdate">Date of Birth</label>
+        </div>
+        <div class="form-floating mb-3 mt-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+        </div>
+        <div class="form-check mt-3">
+            <input class="form-check-input" type="radio" name="" id="terms" value="">
+            <label class="form-check-label" for="inlineRadio1"><small>Accept terms.</small></label>
+          </div>
+        <button class="btn btn-success mt-3">Submit</button>
+    </form>
+
+
+</div>
+{% endblock %}

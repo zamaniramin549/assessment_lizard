@@ -1,0 +1,17 @@
+/* color: #24eba3; */
+
+.btn-outline-success {
+    color: #24eba3 !important;
+    border-color: #24eba3 !important;
+}
+
+.btn-outline-success:hover{
+    background-color: #24eba3 !important;
+    color: #fff !important;
+    border-color: #24eba3 !important;
+}
+.btn-success{
+    background-color: #24eba3 !important;
+    color: #fff !important;
+    border-color: #24eba3 !important;
+}

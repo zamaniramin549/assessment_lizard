@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %}<title>Login</title>{% endblock %}
+
+{% block content %}
+<div class="row p-2">
+    <div class="col-md-6">
+        <img class="img-fluid" src="https://media-exp1.licdn.com/dms/image/C511BAQF4FHLPFLz3wg/company-background_10000/0/1559115455475?e=2147483647&v=beta&t=WPibc99oKCjdxG9x2xkwKj3HKAvSZaIxHbMbyRbQfV4" />
+    </div>
+    <form class="col-md-6">
+        {% for field in login_form %}
+        <div class="form-floating mb-3">
+             {{ field }}
+            <label for="floatinglast">{{ field.label_tag }}</label>
+        </div>
+        {% endfor %}
+        <button class="btn btn-success">Login</button>
+    </form>
+</div>
+{% endblock %}
