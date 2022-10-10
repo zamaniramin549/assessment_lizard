@@ -40,7 +40,7 @@ http://localhost:8000/blog-detail/ (Don't forget to make pagination at home page
 
 4) Create a new page for a user that can view his/her posts and be able to edit and delete any post they desire. Attention that the user should be authenticated.
 
-5) Create a search blog
+5) Create a search blog.
 
 Feel free to install any Django app or packages you need.
 
