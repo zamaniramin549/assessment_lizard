@@ -32,7 +32,7 @@ Without changing the current setup complete the website as describe bellow:
 
 1) Create a Django custome user model to have firstname, lastname, gender, date of birth, email, password, date of joined and at the end terms to accept. Then complete login proccess.
 
-2) In http://localhost:8000/blogpost/ use Django from for creating a new blog post, in this URL user should be authenticated if not redirect the user to login page.
+2) In http://localhost:8000/blogpost/ use Django form for creating a new blog post, in this URL user should be authenticated if not redirect the user to login page.
 and if the user is authenticated shouldn't be able to go to register page. pay attention each blog post can have more than one image.
 
 3) In home page all webiste visitors should be able to see all blog posts, when they click on a particular post should redirect them to a new page for reading more.
